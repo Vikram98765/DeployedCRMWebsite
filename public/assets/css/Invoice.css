@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.customer-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-details div {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.remove {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    position: relative;
+    left: 25%;
+
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+td button{
+    background-color: blue;
+    color:white;
+}
+
+.totals {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.totals div {
+    width: 48%;
+}
+
+.text-danger {
+    color: red;
+}
+.btn2{
+    background-color: blue;
+    color:white
+}
+.paytype{
+    background-color: green;
+    color: white;
+}
+.no-margin-btn {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.btn{
+    margin-top: 5px;
+}
+.custom-button {
+    display: inline-block;
+    width: 100px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    line-height: 30px; /* Align text vertically */
+    text-align: center; /* Center text horizontally */
+    padding: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.bg-success-custom {
+    background-color: #28a745; /* Bootstrap success color */
+}
+
+.bg-danger-custom {
+    background-color: #dc3545; /* Bootstrap danger color */
+}

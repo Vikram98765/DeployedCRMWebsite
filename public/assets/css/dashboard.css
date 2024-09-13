@@ -1,0 +1,68 @@
+/* .content{
+    width: 100%;
+    height: auto;
+} */
+.box{
+    width: 100%;
+    height: 50px;
+    background-color: #E8ECEF;
+}
+.dashrow{
+    width: 100%;
+    height: 200px;
+}
+.dcard1{
+    background-color: #26A242 !important;
+}
+.dcard2{
+    background-color: #0175F2 !important;
+}
+.dcard3{
+    background-color: #FEC107 !important;
+}
+.dcard4{
+    background-color: #DC3546 !important;
+}
+.vbtn{
+    text-decoration: none;
+}
+.vbtnang{
+    font-size: 15px;
+}
+.col{
+    overflow: hidden;
+}
+.msgicon{
+    position: relative;
+    left: 70px;
+    top: 20px;
+    font-size: 74px;
+    color: white;
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    rotate: 15deg;
+}
+.fa-life-ring{
+    position: relative;
+    left: 70px;
+    top: 20px;
+    font-size: 74px;
+    color: white;
+    position: absolute;
+    left: 75%;
+    top: 10%;
+}
+.fa-chevron-right{
+    font-size: 15px;
+    margin-left: 100px;
+}
+.accordion-button .fa-chevron-right{
+    transition: transform 0.3s ease-in-out;
+}
+.accordion-button[aria-expanded="true"] .fa-chevron-right{
+    transform: rotate(90deg);
+  }
+.vbtn{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
